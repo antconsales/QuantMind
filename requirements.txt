@@ -1,0 +1,41 @@
+### Core Machine Learning ###
+torch  
+transformers
+optimum
+onnxruntime
+onnx
+
+### Reinforcement Learning ###
+stable-baselines3 
+gymnasium
+
+### Web & API ###
+flask
+requests
+
+### Utilità Base ###
+numpy
+pandas
+psutil
+
+### NLP e Text Processing ###
+tokenizers
+sentence-transformers
+
+### Gestione Modelli e Dataset ###
+datasets
+huggingface-hub
+
+llama-cpp-python==0.2.56; sys_platform == 'darwin'
+--extra-index-url https://download.pytorch.org/whl/nightly/cpu 
+
+# Raspberry Pi (ARM)
+bitsandbytes==0.41.3.post2; sys_platform != 'darwin'
+
+torchvision
+torchaudio
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+
+
